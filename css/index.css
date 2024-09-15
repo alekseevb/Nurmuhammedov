@@ -102,10 +102,10 @@
   margin-bottom: 45px;
 }
 .about__company-name {
-  margin-bottom: 65px;
+  padding-bottom: 65px;
 }
 .about__text {
-  font-size: 19.531px;
+  font-size: 18.531px;
   font-style: normal;
   font-weight: 400;
   line-height: 31px;
@@ -114,12 +114,13 @@
 }
 
 .companyName__title {
-  font-size: 80px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -7.5px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
+  margin-bottom: 65px;
 }
 
 .slogan-wrapper {
@@ -293,7 +294,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {

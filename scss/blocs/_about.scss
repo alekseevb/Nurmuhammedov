@@ -72,11 +72,11 @@
     }
 
     &__company-name {
-        margin-bottom: 65px;
+        padding-bottom: 65px;
     }
 
     &__text {
-        font-size: 19.531px;
+        font-size: 18.531px;
         font-style: normal;
         font-weight: 400;
         line-height: 31px;
@@ -85,16 +85,19 @@
         margin-bottom: 71px
     }
 }
-.companyName {
 
-    &__title {
-        font-size: 80px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: -7.5px;
-        text-transform: uppercase;
-    }
+
+.companyName {
+        &__title {
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            
+            margin-bottom: 65px;
+        }
 }
 .slogan-wrapper {
     width: 1150px;
