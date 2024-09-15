@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* Шапка займёт всю ширину окна браузера */
+    z-index: 1000;
+    /* Высокое значение, чтобы шапка была всегда на первом плане */
+
+    background-color: #eaf0ff;
+    &__inner {
+        margin: 24px 0;
+
+    }
+
+    &__logo {
+        width: 203px;
+    height: 40px;
+
+    background-color: #221d92;
+    color: white;
+
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    font-family: "Rowdies";
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.navigation {
+
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    &__item {
+        list-style: none;
+    transition: 0.2s;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    &__item:hover{
+        padding-bottom: 3px;
+    border-bottom: 1px solid black;
+    }
+
+    &__item-active {
+        padding-bottom: 3px;
+        border-bottom: 1px solid black;
+    }
+}

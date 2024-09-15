@@ -1,0 +1,71 @@
+@import "./blocs/header";
+@import "./blocs/about";
+@import "./blocs/plan";
+@import "./blocs/services";
+@import "./blocs/contact";
+@import "./blocs/teams";
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn {
+    max-width: 162px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    color: black;
+    text-decoration: none;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #bccaff;
+    border: 0px;
+}
+
+.contact {
+    background-color: #1E1E1E;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.contact__inner {
+    padding-top: 100px;
+}
+.teams__inner {
+    margin: 224px 0;
+}

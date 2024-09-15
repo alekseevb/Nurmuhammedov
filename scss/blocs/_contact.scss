@@ -1,0 +1,36 @@
+.contact {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            height: 400px;
+        }
+    }
+
+    &__me {
+        position: relative;
+    }
+
+    &__title {
+        color: #EEE;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.logo {
+
+    &__absolute {
+        position: absolute;
+        top: -60px;
+        left: -372px;
+    }
+}
+.mail {
+    padding-left: 250px;
+    padding-top: 50px;
+}
