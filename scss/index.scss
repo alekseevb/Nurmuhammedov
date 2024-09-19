@@ -4,6 +4,8 @@
 @import "./blocs/services";
 @import "./blocs/contact";
 @import "./blocs/teams";
+@import "./blocs/task";
+@import "./blocs/form";
 
 body {
     // font-family: "Roboto", sans-serif;
@@ -25,12 +27,14 @@ html {
     font-weight: 700;
     line-height: 120%;
 }
+
 .subtitle {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
 }
+
 .btn {
     max-width: 162px;
     height: 48px;
@@ -67,6 +71,7 @@ html {
 .contact__inner {
     padding-top: 100px;
 }
+
 .teams__inner {
     margin: 224px 0;
 }

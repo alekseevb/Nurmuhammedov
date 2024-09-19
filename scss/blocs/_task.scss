@@ -1,0 +1,28 @@
+.task {
+    background-color: #3e39a1;
+    color: white;
+
+    h1 {
+
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    &__inner {
+        padding: 100px 0;
+    }
+
+
+}
+
+.table {
+    margin-top: 30px;
+
+
+    p {
+        margin-right: 20px;
+    }
+}

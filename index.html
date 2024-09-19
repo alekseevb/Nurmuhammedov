@@ -117,6 +117,85 @@
             </div>
         </section>
 
+        <section class="task">
+            <div class="container">
+                <div class="task__inner">
+                    <h1>
+                        Задачи
+                    </h1>
+                    <ol id="spisokst">
+                        <li>Первоя строка</li>
+                        <li>Вторая строка</li>
+                        <li>Третья строка</li>
+                    </ol>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <p onClick="javascript:addLi()"
+                                    onmouseover="this.style.color = 'white';this.style.cursor = 'pointer';"
+                                    onmouseout="this.style.color = 'black';">
+                                    Добавить в список
+                                </p>
+                            </td>
+                            <td>
+                                <p onClick="javascript:deleteLi()"
+                                    onmouseover="this.style.color = 'white';this.style.cursor = 'pointer';"
+                                    onmouseout="this.style.color = 'black';">
+                                    Удалить из списка
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="container">
+                <div class="form__inner">
+                    <form action="#" method="post" target="_blank">
+                        <h2>Заполните форму</h2>
+                        <fieldset>
+                            <legend>Персональные данные</legend>
+                            <ul>
+                                <li>
+                                    <label for="name">Имя:*</label>
+                                    <input type="text" name="name" placeholder="Иван Иванов" id="name" required>
+                                </li>
+                                <li>
+                                    <label for="age">Возраст:</label>
+                                    <input type="number" name="age" placeholder="27" id="age" min="0" max="125">
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Контакты</legend>
+                            <ul>
+                                <li>
+                                    <label for="email">E-mail:*</label>
+                                    <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
+                                </li>
+                                <li>
+                                    <label for="number">Телефон:*</label>
+                                    <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number"
+                                        maxlength="21" required>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <div>
+                            <label for="message">Увлечения</label>
+                            <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно"
+                                id="message"></textarea>
+                        </div>
+                        <div class="form__btn">
+                            <button type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </form>
+
 
     </main>
 
@@ -136,6 +215,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
